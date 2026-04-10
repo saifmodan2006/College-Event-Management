@@ -1,0 +1,38 @@
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.python-version
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+arms_cache
+frontend/arms_cache
+
+# ---- Environment / secrets ----
+.env
+
+# ---- SQLite ----
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.qoder/
+
+# ---- Frontend (keep deps/build out of git) ----
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
